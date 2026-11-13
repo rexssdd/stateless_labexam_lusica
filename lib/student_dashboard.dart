@@ -246,6 +246,44 @@ class StudentDashboard extends StatelessWidget {
                   ),
                 ),
               ),
+              //subject 4
+                  SizedBox(
+                width: double.infinity, 
+                child: Card(
+                  elevation: 1,
+                  color: const Color(0xFFF8F2FA),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(14),
+                  ),
+                  child: const Padding(
+                    padding: EdgeInsets.all(12),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          'CAED ',
+                          style: TextStyle(fontSize: 16),
+                        ),
+                        SizedBox(height: 3),
+                        Text(
+                          'Instructor: Mr. Jerick',
+                          style: TextStyle(
+                            fontSize: 14,
+                            color: Colors.black54,
+                          ),
+                        ),
+                        Text(
+                          'Schedule: Mon/Fri 12:30 nn - 1:30 PM',
+                          style: TextStyle(
+                            fontSize: 14,
+                            color: Colors.black54,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
