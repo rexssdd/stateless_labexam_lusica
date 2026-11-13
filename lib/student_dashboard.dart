@@ -132,7 +132,7 @@ class StudentDashboard extends StatelessWidget {
 
               // SUBJECT 1
               SizedBox(
-                width: double.infinity, // Full available width
+                width: double.infinity, 
                 child: Card(
                   elevation: 1,
                   color: const Color(0xFFF8F2FA),
@@ -171,7 +171,7 @@ class StudentDashboard extends StatelessWidget {
 
               // SUBJECT 2
               SizedBox(
-                width: double.infinity, // Full available width
+                width: double.infinity, 
                 child: Card(
                   elevation: 1,
                   color: const Color(0xFFF8F2FA),
@@ -210,7 +210,7 @@ class StudentDashboard extends StatelessWidget {
 
               // SUBJECT 3
               SizedBox(
-                width: double.infinity, // Full available width
+                width: double.infinity, 
                 child: Card(
                   elevation: 1,
                   color: const Color(0xFFF8F2FA),
