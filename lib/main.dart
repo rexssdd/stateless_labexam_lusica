@@ -1,0 +1,27 @@
+
+import 'package:flutter/material.dart';
+import 'student_dashboard.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget{
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context){
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Student Dashboard',
+      theme: ThemeData(
+        useMaterial3:true,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.deepPurple,
+        ),
+        scaffoldBackgroundColor: const Color(0xFFFFF7FF),
+      ),
+      home: const StudentDashboard(),
+    );
+  }
+}
